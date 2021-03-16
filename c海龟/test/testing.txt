@@ -1,0 +1,9 @@
+The parser and interpreter modules use the same testing strategy.
+
+For array_ First, create a list and verify that it is created successfully. Then, read 1000 strings, judge the content and size of strings, and finally release resources.
+
+For stack, create a stack, judge whether to create a city to provide, then put 1000 floating-point numbers on the stack, judge whether the size meets the expectation, then access the top element of the stack to see whether it meets the expectation, and finally release the resources.
+
+Read and save the contents in the array file_ List, judge array_ Whether the list is created successfully, and whether the string content is correct element by element, and whether the number of elements meets the expectation.
+
+Finally, judge whether the instruction is correct。

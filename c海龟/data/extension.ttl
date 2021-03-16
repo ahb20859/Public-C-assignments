@@ -1,0 +1,10 @@
+{
+   DO A FROM 1 TO 4 {
+      SET C := A 50 * ;
+      MOVE C 170
+      DO B FROM 1 TO 8 {
+         FD 30 
+         LT 45
+      }
+   }
+}
